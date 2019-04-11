@@ -1,0 +1,197 @@
+#myProgress {
+  width: 20%;
+  background-color: #181C24;
+    border-radius: 15px;
+/*  border-radius: 10px;*/
+}
+
+#myBar {
+  width: 0%;
+  height: 30px;
+  background-color: #38B1B8;
+    border-radius: 15px;
+/*  border-radius: 10px;*/
+}
+
+.active-buttons {
+    
+}      
+
+#button {
+	border-color: #38B1B8;
+    border-width: 2px;
+	border-radius: 15px;
+    right: -5px;
+    margin-right: 10px;
+	position: relative;
+    padding: 1.1em;
+    font: 'Helvetica', sans-serif;
+    font-size: 10px;
+    background-color: white;
+}
+
+#coach {
+	background-color: #181C24;
+	border-radius: 15px;
+    right: 10px;
+    top: 50px;
+    margin-right: 10px;
+	position: relative;
+    padding: 1.4em;
+    font-family: 'Nexa Bold', sans-serif;
+    font-size: 14px;
+    color: #F4F6F9;
+}
+/*
+#next {
+	border-radius: 15px;
+    margin-left: 300px;
+	padding: 1.1em;
+	position: relative;
+    background-color: white;
+    border-color: #38B1B8;
+    border-width: 2px;
+}
+*/
+
+a {
+    font: 'Helvetica, sans-serif';
+    font-size: 12px;
+    color: #181C24;
+    text-decoration: none;
+}
+
+body { 
+    font: 14pt 'Alike', sans-serif;
+    padding: 0; 
+    margin: 0; 
+    background-color: #FBFBFB;
+}
+
+
+#note { 
+    font-size: 164px; 
+}
+
+.droptarget {
+    background-color: #348781
+}
+
+.confident {
+    color: black; 
+}
+
+.vague { 
+    color: lightgrey; 
+/*    display:table;*/
+    margin: 0 auto;
+    background-size: contain;
+    border: 1px solid red;
+    position: relative;
+}
+
+#note { 
+    display: inline-block; 
+    height:180px; 
+    text-align: left;
+}
+
+#detector { 
+    width: 300px; 
+    height: 300px; 
+    border: 5px solid #38B1B8; 
+    border-radius: 8px; 
+    text-align: center; 
+    padding-top: 10px; 
+}
+
+#output { 
+    width: 300px; 
+    height: 42px; 
+}
+
+#flat { 
+    display: none; 
+}
+
+#sharp { 
+    display: none; 
+}
+
+.flat #flat { 
+    display: inline; 
+}
+
+.sharp #sharp { 
+    display: inline; 
+}
+      
+#myDIV { 
+    width: 300px; 
+    height: 300px; 
+    border: 4px solid gray; 
+    border-radius: 8px; 
+    text-align: center; 
+    padding-top: 10px;
+}
+          
+.container2 {
+    display:table;
+    margin-left: 36.5%;
+    background-size: contain;
+    width: 23.8%;
+    height: 100%;
+    border: 1px solid red;
+    position:relative;
+}
+
+@media only screen 
+and (min-device-width : 414px) 
+and (max-device-width : 736px) 
+and (orientation : portrait){ /* STYLES GO HERE */}
+   
+
+.topbox{
+    background-color: #F4F6F9;
+    font-family: 'Nexa Bold', sans-serif;
+    font-size: 20px;
+    padding-top: 20px;
+    padding-bottom: 15px;
+    padding-left: 300px;
+}     
+
+#whistle {
+    display: block;
+    height: 50px;
+    width: 50px;
+    margin-top: 100px;
+    background: url("whistle.gif") no-repeat center center;
+    background-size: contain;
+}
+     
+#back {
+    width: 70px;
+	border-radius: 15px;
+    border-color: white;
+	position: relative;
+    background-color: white;
+    margin-left: -50px;
+    top: -52px;
+    
+}
+          
+#person {
+    display: block;
+    height: 400px;
+    width: 300px;
+    background: url("visual_audio/vocalcoach.gif") no-repeat center center;
+    background-size: contain;
+    
+}
+.footer{
+    background: url("visual_audio/navbar.jpg") no-repeat center center;
+    background-size: contain;
+    height: 70px;
+    width: 100%;
+    margin-top: 50px;
+}       

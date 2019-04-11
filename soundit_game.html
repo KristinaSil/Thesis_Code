@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>p5.js example</title>
+    <script src="pitchdetect.js"></script>
+    <link rel="stylesheet" type="text/css" href="Css/soundit.css">
+      <link rel="stylesheet" type="text/css" href="Css/reset.css">
+  </head>
+  <body>
+      
+ <center>
+     <div class="topbox">soundit</div>
+    
+    <br/><br/><br/>
+     <div class="active-buttons">
+     <button id = button onclick="toggleLiveInput()">Use your live input</button>
+     <button id = button onclick="this.innerText = togglePlayback()">stop</button>
+     <button id = button onclick="toggleOscillator()">Listen to "A" key</button>
+     </div>
+
+    <br/><br/>
+<div id="detector" class="vague">
+<div class="pitch"><span id="pitch">--</span>Hz</div>
+<div class="note"><span id="note">-</span></div>   
+<canvas id="output" width="300" height="42"></canvas>
+<div id="detune" class=""><span id="detune_amt">--</span><span id="flat">cents ♭</span><span id="sharp">cents ♯</span></div>
+</div>
+     <br/><br/>
+      Sing DO:<br/><br/> <div id="myProgress">
+  <div id="myBar"></div>
+</div>
+         <br/>
+
+     <div class = "footer"></div>
+</center>
+   
+  </body>
+</html>
